@@ -1,0 +1,26 @@
+.NavigationItem {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.NavigationItem a {
+  display: block;
+  padding: 20px 16px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  border-bottom: 4px solid transparent;
+  background-color: bisque;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  border-bottom: 4px solid black;
+  color: white;
+  background-color: burlywood;
+}
